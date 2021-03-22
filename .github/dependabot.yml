@@ -6,14 +6,14 @@
 version: 2
 updates:
   - package-ecosystem: "pip" # See documentation for possible values
-    directory: "/examples/advanced-vector-search" # Location of package manifests
+    directory: "/advanced-vector-search" # Location of package manifests
     schedule:
       interval: "daily"
     allow:
       - dependency-name: "jina"
         dependency-type: "direct"
   - package-ecosystem: "pip" # See documentation for possible values
-    directory: "/examples/audio-search" # Location of package manifests
+    directory: "/audio-search" # Location of package manifests
     schedule:
       interval: "daily"
     allow:
