@@ -9,3 +9,7 @@ updates:
     directory: "examples/advanced-vector-search/" # Location of package manifests
     schedule:
       interval: "daily"
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "examples/audio-search/" # Location of package manifests
+    schedule:
+      interval: "daily"
